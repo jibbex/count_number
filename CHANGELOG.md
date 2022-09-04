@@ -1,3 +1,7 @@
+## 0.3.4
+
+* Fixed dead image link in README.md
+
 ## 0.3.3
 
 * Changed description in pubspec.yaml
