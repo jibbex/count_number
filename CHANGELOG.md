@@ -1,3 +1,7 @@
+## 0.3.5
+
+* Updated LICENSE
+
 ## 0.3.4
 
 * Fixed dead image link in README.md
