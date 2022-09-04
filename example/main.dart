@@ -84,13 +84,13 @@ class _HomeState extends State<Home> {
         children: [
           Expanded(
               child: Center(
-                child: Text(
-                  CountNumber.isInteger(_number)
-                      ? _number.toString()
-                      : _number.toStringAsFixed(2),
-                  style: Theme.of(context).textTheme.headline1,
-                ),
-              )),
+            child: Text(
+              CountNumber.isInteger(_number)
+                  ? _number.toString()
+                  : _number.toStringAsFixed(2),
+              style: Theme.of(context).textTheme.headline1,
+            ),
+          )),
           Card(
             elevation: 12,
             margin: const EdgeInsets.symmetric(
@@ -116,8 +116,8 @@ class _HomeState extends State<Home> {
                       textAlign: TextAlign.center,
                       onSubmitted: (_) => _onPressed(),
                       style: Theme.of(context).textTheme.headline4?.copyWith(
-                        fontWeight: FontWeight.w200,
-                      ),
+                            fontWeight: FontWeight.w200,
+                          ),
                       decoration: const InputDecoration(
                         fillColor: Colors.white70,
                         filled: true,

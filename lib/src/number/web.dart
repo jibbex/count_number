@@ -5,6 +5,5 @@ import 'package:count_number/src/number_impl.dart';
 
 class Number implements NumberImpl {
   @override
-  bool isInteger(num? val) =>
-      context['Number'].callMethod('isInteger', [val]);
+  bool isInteger(num? val) => context['Number'].callMethod('isInteger', [val]);
 }

@@ -9,12 +9,12 @@ void main() {
     int endValue = 200;
 
     CountNumber(
-        endValue: endValue,
-        onUpdate: (value) {
-          current = value.toInt();
-          if (kDebugMode) print(value);
-        },
-        onDone: () => expect(current, endValue),
+      endValue: endValue,
+      onUpdate: (value) {
+        current = value.toInt();
+        if (kDebugMode) print(value);
+      },
+      onDone: () => expect(current, endValue),
     ).start();
   });
 }

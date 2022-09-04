@@ -4,7 +4,6 @@ import 'dart:async';
 import 'package:flutter/physics.dart';
 import './src/number/number.dart';
 
-
 /// Counts up or down a value based on a spring
 /// animation. The value can be an integer
 /// or a double.
@@ -12,20 +11,27 @@ class CountNumber {
   num _endValue;
   num _value = 0;
   Timer? _timer;
+
   /// The value at the end of the count.
   final num endValue;
+
   /// The value at the start of the count.
   final num? startValue;
+
   /// Speed of the count.
   final double? velocity;
+
   /// Description of the SpringSimulation.
   final SpringDescription? springDescription;
+
   /// Re-animating the counting process
   /// when setting the value property.
   final bool isDynamic;
+
   /// The callback is called when the
   /// value has changed.
   final void Function(num) onUpdate;
+
   /// The callback is called at the
   /// end of the SpringSimulation.
   final void Function()? onDone;
