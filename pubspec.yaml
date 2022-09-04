@@ -1,6 +1,6 @@
 name: count_number
-description: Counts up or down a value based on a spring animation.
-version: 0.3.1
+description: Animates the counting process of a value based on a spring simulation. Starts an internal periodic timer that checks the state of the simulation at each tick and calls one of the callbacks if necessary.
+version: 0.3.2
 homepage: https://github.com/jibbex/count_number
 repository: https://github.com/jibbex/count_number.git
 
