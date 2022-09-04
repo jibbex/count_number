@@ -2,7 +2,7 @@
 
 Counts up or down a value based on a spring animation.
 
-<img title="example" src="https://raw.githubusercontent.com/jibbex/count_number/main/assets/count_num.png" alt="" width="255" data-align="center">
+<img title="example" src="https://raw.githubusercontent.com/jibbex/count_number/main/assets/count_num.gif" alt="" width="255" data-align="center">
 
 ## Features
 

@@ -1,5 +1,9 @@
 ## 0.3.5
 
+* Changed image to gif in README.md
+
+## 0.3.5
+
 * Updated LICENSE
 
 ## 0.3.4
