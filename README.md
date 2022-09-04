@@ -1,15 +1,13 @@
 # Flutter package: count_number
 
-Counts up or down a value based on a spring animation.
-
-<img title="example" src="https://raw.githubusercontent.com/jibbex/count_number/main/assets/count_num.gif" alt="" width="255" data-align="center">
-
-## Features
-
 Animates the counting process of a value based on a spring simulation. 
 Starts an internal periodic timer that checks the state of the simulation 
 at each tick and calls one of the callbacks if necessary. The value can 
 be an integer or a double.
+
+<img title="example" src="https://raw.githubusercontent.com/jibbex/count_number/main/assets/count_num.gif" alt="" width="255" data-align="center">
+
+## Features
 
 * Counts animated a number up or down
 * Supports integer and double values
