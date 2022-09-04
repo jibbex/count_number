@@ -1,4 +1,4 @@
-## 0.3.5
+## 0.3.6
 
 * Changed image to gif in README.md
 
