@@ -1,5 +1,6 @@
 ## 0.3.7
 
+* Fixed formatting
 * Updated LICENSE
 
 ## 0.3.6
