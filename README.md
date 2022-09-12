@@ -13,7 +13,7 @@ be an integer or a double.
 * Supports integer and double values
 * Calls the callbacks only when actually necessary
 * Can be initialized as dynamic
-  * Setting the property value triggers a new counting process
+* Setting the property value triggers a new counting process
 
 ## Getting started
 

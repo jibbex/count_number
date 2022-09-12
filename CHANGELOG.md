@@ -1,3 +1,8 @@
+## 0.3.71
+
+* Added some comments for documentation
+* License should now recognised from pub.dev
+
 ## 0.3.7
 
 * Fixed formatting
